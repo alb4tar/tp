@@ -116,3 +116,36 @@ div li
 	background:url('tpoff/images/fond_degraderouge.png') repeat-x ;
 
 }
+section
+{
+	display: flex;
+}
+article
+{
+	margin-right: 10px;
+	flex: 3;
+}
+.epingle
+{
+	vertical-align: left;
+	margin-right: 5px;
+}
+article p
+{
+	font-size: 12px;
+}
+aside
+{
+	flex:1.2;
+	text-align: center;
+	background-color: grey;
+	color: white
+}
+aside img
+{
+	margin-right: 15px;
+}
+footer
+{
+	display: flex;
+}
